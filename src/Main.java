@@ -9,6 +9,7 @@ public class Main {
         BotanicaBascketballTeam botanicaBascketballTeam = new BotanicaBascketballTeam("Botanica Bascketball Team");
         CiocanaBascketballTeam ciocanaBascketballTeam = new CiocanaBascketballTeam("Ciocana Bascketball Team");
         RiscaniBscketballTeam riscaniBscketballTeam = new RiscaniBscketballTeam("Riscani Bascketball Team");
+        CentruBascketballTeam centruBascketballTeam =new CentruBascketballTeam("Centru Bascketball Team");
 
         League<Football> footballLeague = new League("Football");
         footballLeague.addTeamToLeague(fcbarcelona);
@@ -21,6 +22,7 @@ public class Main {
         bascketBallLeague.addTeamToLeague(botanicaBascketballTeam);
         bascketBallLeague.addTeamToLeague(ciocanaBascketballTeam);
         bascketBallLeague.addTeamToLeague(riscaniBscketballTeam);
+        bascketBallLeague.addTeamToLeague(centruBascketballTeam);
         bascketBallLeague.displayLeague();
     }
 }
