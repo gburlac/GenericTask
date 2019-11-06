@@ -23,6 +23,7 @@ public class Main {
         bascketBallLeague.addTeamToLeague(ciocanaBascketballTeam);
         bascketBallLeague.addTeamToLeague(riscaniBscketballTeam);
         bascketBallLeague.addTeamToLeague(centruBascketballTeam);
+        bascketBallLeague.addTeamToLeague(botanicaBascketballTeam);
         bascketBallLeague.displayLeague();
     }
 }
